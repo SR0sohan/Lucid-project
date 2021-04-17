@@ -1,0 +1,242 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+/* 
+
+<i class="fas fa-desktop"></i>
+<i class="fas fa-cog"></i>
+<i class="far fa-thumbs-up"></i>
+<i class="fas fa-mobile-alt"></i>
+
+*/
+
+/* 
+
+<i class="fas fa-trophy"></i>
+<i class="fas fa-mouse"></i>
+<i class="fas fa-tachometer-alt"></i>
+<i class="fas fa-bolt"></i>
+
+*.....
+
+<i class="far fa-envelope"></i>
+<i class="fas fa-map-marker-alt"></i>
+
+*/
+
+/* *****   header style   ******* */
+
+header{
+    background: url(../image/top-bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: auto;
+    width: 100%;
+}
+
+.menu-content{
+    padding-top: 20px;
+}
+
+.text-menu{
+    color: white !important;
+    font-size: 16px;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.text-menu:hover{
+    cursor: pointer;
+    color:#008ed6 !important;
+    background: url(../image/devider.png) center bottom no-repeat;
+    
+    
+}
+
+.header-text{
+    margin-top: 100px;
+}
+
+.header-left{
+    margin-left: 22px;
+    color: white;
+
+}
+
+.header-left h3{
+    font-size: 14px;
+    color: #008ed6;
+    letter-spacing: 1px;
+    font-weight: bold;
+}
+
+.header-left h1{
+    font-size: 42px;
+    margin: 18px 0 35px 0;
+}
+
+.header-left p{
+    font-size: 18px;
+    width: 92%;
+}
+
+.header-left button{
+    margin: 40px 20px 0 0;
+    padding: 10px 25px;
+    background: transparent;
+    color: white;
+    font-weight: bold;
+    border: 1px solid rgb(189, 187, 187);
+    border-radius: 4px;
+    transition: 0.4s;
+}
+
+.btn-one{
+    background-color: #008ed6 !important;
+    border: none !important;
+}
+
+.btn-one:hover{
+    background-color:white !important;
+    color: #008ed6 !important;
+    border: none !important;
+    transition: 0.4s;
+}
+
+.btn-two:hover{
+    background-color: #008ed6 !important;
+    border: none !important;
+    transition: 0.4s;
+}
+
+.header-right{
+    margin: 5px 0 0 0;
+    width: 100%;
+}
+.header-right img{
+    margin-left: 200px;
+}
+
+/* ******* amazing style        ******** */
+.amazing{
+    padding: 80px 0;
+    border-bottom: 1px solid lightgray;
+}
+
+.amazing-top h5{
+    font-weight: bold;
+    font-size: 14px;
+    color: #008ed6;
+    letter-spacing: 2px;
+}
+
+.amazing-top h2{
+    font-size: 36px;
+    font-weight: 600;
+    margin-bottom: 45px;
+}
+
+.devid{
+    display: inline-block;
+    height: 2px;
+    width: 30px;
+    background-color: #008ed6;
+}
+
+.amazing-list{
+    text-align: center;
+    padding: 30px;
+    margin-top: 50px;
+}
+
+.amazing-list i{
+    height: 80px;
+    width: 80px;
+    text-align: center;
+    border-radius: 50%;
+    line-height: 80px;
+    font-size: 27px;
+    border: 1px solid #e7e6e6;
+    color: #008ed6;
+    margin-bottom: 30px;
+}
+}
+
+.amazing-list h3{
+    font-size: 24px;
+}
+
+.amazing-list p{
+    font-size: 18px;
+    margin-top: 18px;
+    color: #b4b4b4;
+}
+
+/* beautiful style */
+.beautiful{
+    padding: 100px 0 0px 0;
+}
+
+.beautiful-right{
+    margin-top: 40px;
+}
+.beautiful-right h5{
+    font-weight: bold;
+    font-size: 14px;
+    color: #008ed6;
+    letter-spacing: 2px;
+    margin-bottom: 19px;
+    text-transform: uppercase;
+}
+.beautiful-right h2{
+    font-size: 36px;
+    font-weight: 600;
+    margin-bottom: 25px;
+}
+.beautiful-right p{
+    margin-top: 25px;
+    color: #b4b4b4;
+    width: 70%;
+}
+
+.beautiful-icon ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 50px;
+}
+
+.beautiful-icon ul li i{
+    height: 40px;
+    color: #008ed6;
+    /* margin-right: 16px; */
+    width: 50px;
+    line-height: 40px;
+    text-align: left;
+}
+.extra{
+    width: 45px !important;
+}
+
+/* super style */
+
+.super{
+    padding: 100px 0 80px 0;
+    background-color:  #f2f2f2;
+}
+.super-right{
+    padding: 0;
+}
+.super-img{
+    padding: 0;
+}
+.super-img img{
+    width: 100%;
+    padding-left: 0;
+    padding-right: 28px;
+}
