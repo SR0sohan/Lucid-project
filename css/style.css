@@ -19,6 +19,62 @@ header{
     padding-top: 20px;
 }
 
+
+.text-menu{
+    color: white !important;
+    font-size: 16px;
+    font-weight: bold;
+    margin-right: 10px;
+    transition: 0.3s;
+}
+
+
+.text-menu::before{
+    content: '';
+    background: transparent;
+    height: 3px;
+    width: 44%;
+    display: block;
+
+}
+.text-menu:hover::before{
+    content: '';
+    background: #008ed6;
+    height: 3px;
+    width: 45%;
+    position: relative;
+    top: 26px;
+    transition: 0.3s;
+}
+
+.text-menu::after{
+    content: '';
+    background:transparent;
+    height: 3px;
+    width: 44%;
+    background-position: bottom;
+    display:block;
+
+}
+
+.text-menu:hover::after{
+    content: '';
+    background: #008ed6;
+    height: 3px;
+    width: 45%;
+    position: relative;
+    top: -1px;
+    left: 51%;
+    transition: 0.3s;
+}
+.text-menu:hover{
+    transition: 0.3s;
+    color:#008ed6 !important;  
+}
+
+
+
+/* 
 .text-menu{
     color: white !important;
     font-size: 16px;
@@ -29,10 +85,8 @@ header{
 .text-menu:hover{
     cursor: pointer;
     color:#008ed6 !important;
-    background: url(../image/devider.png) center bottom no-repeat;
-    
-    
-}
+    background: url(../image/devider.png) center bottom no-repeat;  
+} */
 
 .header-text{
     margin-top: 100px;
