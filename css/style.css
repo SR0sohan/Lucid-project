@@ -61,10 +61,10 @@ header{
     content: '';
     background: #008ed6;
     height: 3px;
-    width: 45%;
+    width: 50%;
     position: relative;
     top: -1px;
-    left: 51%;
+    left: 52%;
     transition: 0.3s;
 }
 .text-menu:hover{
@@ -540,13 +540,14 @@ header{
 .map{
     z-index: -999 !important;
     margin-top: -80px;
-    margin-bottom: 0;
+    margin-bottom: -6px;
 }
+
 /* footer style */
 
 .footer{
     background: #15141a;
-    padding: 44px;
+    padding: 30px;
     text-align: center;
 }
 .icons{
